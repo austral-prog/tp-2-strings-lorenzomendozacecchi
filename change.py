@@ -3,3 +3,21 @@ def change():
     y lo separa en pesos (parte entera) y centavos.
     """
     pass
+    gasto = float(input("Ingresar el gasto: "))
+    dinero = int(input("ingrese el dinero recibido: "))
+    print("Ingresar gasto:")
+    print(gasto)
+    print("Dinero recibido")
+    print(dinero)
+    print("")
+    print("Vuelto")
+    print("")
+    vuelto = dinero - gasto
+    pesos = int(vuelto)
+    print("Pesos:")
+    print(pesos)
+    centavos = round((vuelto - pesos) * 100)
+    print("Centavos:")
+    print(centavos)
+
+change()
