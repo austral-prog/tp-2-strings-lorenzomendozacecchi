@@ -71,6 +71,6 @@ def ficha():
     print(f"Promedio entero: {promedio_entero}")
 
     print("=" * 24)
+    if __name__ == "__main__":
+        ficha()
 
-
-ficha()

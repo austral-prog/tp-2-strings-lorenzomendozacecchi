@@ -5,4 +5,5 @@ def slice_advanced():
     pass
     nombre = input("Ingrese texto ")
     print(nombre[4::2])
-slice_advanced()
+    if __name__ == "__main__":
+        slice_advanced()

@@ -9,4 +9,5 @@ def string_info():
     print("Ultima letra:", palabra[-1])
     print("Repetida:", palabra*3)
     print("Decorada:", "*" * 3 + palabra + "*" * 3)
-string_info()
+    if __name__ == "__main__":
+        string_info()

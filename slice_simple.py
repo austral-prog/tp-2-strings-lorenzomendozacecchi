@@ -6,4 +6,5 @@ def slice_simple():
     print(texto[0:3].lower())
     print(texto[2:5].lower())
     print(texto.lower())
-slice_simple()
+    if __name__ == "__main__":
+        slice_simple()

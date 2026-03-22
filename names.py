@@ -8,5 +8,7 @@ def names():
     print(nombre.lower(), apellido.lower())
     print(nombre.title(), apellido.title())
     print(nombre.upper(), apellido.upper())
-    print("\t",nombre, apellido)
-names()
+    print("\t" + nombre.lower() + " " + apellido.lower())
+    if __name__ == "__main__":
+        names()
+

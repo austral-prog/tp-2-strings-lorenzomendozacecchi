@@ -9,4 +9,5 @@ def casting():
     print("Descuento:", descuento)
     print("Precio con descuento:", precio_descuento)
     print("Total:", precio_descuento * cantidad)
-casting()
+    if __name__ == "__main__":
+        casting()
